@@ -383,11 +383,11 @@ enum PolicyObject {
     None,
 }
 
-impl Default for PolicyObject {
-    fn default() -> Self {
-        PolicyObject::None
-    }
-}
+//impl Default for PolicyObject {
+//    fn default() -> Self {
+//        PolicyObject::None
+//    }
+//}
 
 impl TryFrom<&str> for PolicyObject {
     type Error = anyhow::Error;
